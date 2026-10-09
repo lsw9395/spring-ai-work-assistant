@@ -1,0 +1,12 @@
+/* Keep the composer visible on common laptop screens. */
+@media (min-width: 761px) and (max-height: 800px) {
+  .workspace { padding-top: 28px; }
+  h1 { font-size: 34px; margin: 14px 0 10px; }
+  .intro { margin: 8px 0; }
+  .cards { margin-top: 22px; }
+  .task-card { padding: 15px 18px; }
+  .card-icon { margin-bottom: 13px; }
+  .task-card p { margin: 8px 0 12px; }
+  .example { margin: 16px 0 8px; }
+  .composer-wrap { padding-top: 12px; }
+}
